@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+		<div class="all">
+			<div class='main-move'>
+				<div id='b_1'>
+					<div class='left'>
+						<div class="ch">1</div>
+						<hr>
+						<div class="zn">3</div>
+					</div>
+					<div class='plus'> + </div>
+					<div class='right'>
+						<div class="ch">2</div>
+						<hr>
+						<div class="zn">9</div>
+					</div>
+				</div>
+				<div class="eq">=</div>				
+				<div id='b_2'>
+					<div class='left'>
+						<div class='ch'><div class="ch_num" id="ch_num0"></div><span><i class="fa fa-times"></i></span><input class="input"  tabindex=1 r="0" id="a_input"><div id="a_i_pop0">Введи знаменатель второй дроби</div></div>	
+						<hr>
+						<div class='zn'><div class="ch_num" id="ch_num1"></div><span><i class="fa fa-times"></i></span><input class="input"  tabindex=3 r="1" id="a_input"><div id="a_i_pop1">Введи знаменатель второй дроби</div></div>
+					</div>
+					<div class='plus'> + </div>
+					<div class='right'>
+						<div class='ch'><div class="ch_num" id="ch_num2"></div><span><i class="fa fa-times"></i></span><input class="input"  tabindex=2 r="2" id="a_input"><div id="a_i_pop2">Введи знаменатель первой дроби</div></div>
+						<hr>
+						<div class='zn'><div class="ch_num" id="ch_num3"></div><span><i class="fa fa-times"></i></span><input class="input"  tabindex=4 r="3" id="a_input"><div id="a_i_pop3">Введи знаменатель первой дроби</div></div>
+					</div>
+				</div>
+				<div id="eq1" class="eq">=</div>	
+				<div id='b_3'>
+					<div class='left'>
+						<input tabindex=1 class="ch_solo" r="4" id="b_input"><div id="a_i_pop4">Перемножь числа в числителе</div>
+						<hr>
+						<input tabindex=3 class="ch_solo" r="5"><div id="a_i_pop5">Перемножь числа в знаменателе</div>
+					</div>
+					<div class='plus'> + </div>
+					<div class='right'>
+						<input tabindex=2 class="ch_solo" r="6"><div id="a_i_pop6">Перемножь числа в числителе</div>
+						<hr>
+						<input tabindex=4 class="ch_solo" r="7"><div id="a_i_pop7">Перемножь числа в знаменателе</div>
+					</div>
+				</div>
+				<div id="eq2" class="eq">=</div>
+				<div id='b_4'>
+					<div class='mid'>
+						<input class="ch_fin" r="8" id="c_input"><div id="a_i_pop8">Сложи числа в числителе</div>
+						<hr>
+						<input class="ch_fin" r="9" ><div id="a_i_pop9">Напиши знаменатель</div>
+					</div>
+				</div>
+			</div>
+		<div class='fader'></div>
+	</div>
+
+	<script type="text/javascript" src="behindme.js"></script>
+
+</body>
+</html>
